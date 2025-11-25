@@ -1,69 +1,49 @@
-📝 Professional React To-Do App
+📝 Todo React App
 
-A clean, modern, and responsive To-Do application built using **React 18**.  
-This project demonstrates real front-end development skills such as component architecture, state management, reusable UI patterns, and persistent data using `localStorage`.
-
-This project is designed to be **portfolio-ready**, clean, and production-quality for GitHub reviewers and recruiters.
-
----
+A simple and clean Todo application built with React, showcasing component-based UI, state management, props, and modular code structure.
 
 🚀 Features
 
-- ✔ Add new tasks  
-- ✔ Mark tasks as complete  
-- ✔ Delete tasks  
-- ✔ Persistent data using LocalStorage  
-- ✔ Professional and responsive UI  
-- ✔ Clean component structure  
-- ✔ Modern React Hooks (useState, useEffect)
+1.Add new tasks
 
----
+2.Delete tasks
+
+3.Task list updates instantly
+
+4.Clean component structure
+
+5.Professional folder layout
 
 🛠 Tech Stack
 
-- **React 18**
-- **JavaScript (ES6+)**
-- **CSS3**
-- **LocalStorage**
-- **Create React App (CRA)**
+1.React
 
----
+2.JavaScript
 
-📂 Folder Structure
+3.HTML + CSS
 
-todo-react-app/
-│── public/
-│ └── index.html
-│
-│── src/
-│ ├── App.js
-│ ├── index.js
-│ └── components/
-│ ├── TodoInput.js
-│ └── TodoList.js
-│
-└── package.json
+📁 Folder Structure
+src/
+ ├── components/
+ │    ├── TodoInput.js
+ │    └── TodoList.js
+ ├── App.js
+ ├── index.js
+public/
+package.json
 
----
-
-📦 Installation & Setup
-1️⃣ Install dependencies
+▶️ How to Run
 npm install
-
-2️⃣ Start development server
 npm start
 
----
+🎯 What I Learned
 
-🎨 UI Preview (Description)
+1.Breaking UI into components
 
--The app uses a minimal, modern design with:
+2.Using state (useState)
 
--Clean typography
+3.Passing props
 
--Soft spacing
+4.Handling events
 
--Professional layout
-
--Responsive UI that works on mobile and desktop
-
+Clean React structure
